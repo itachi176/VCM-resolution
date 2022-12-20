@@ -1,0 +1,4 @@
+sports_ball 230 88 252 106
+person 235 42 303 216
+person 2 15 70 245
+person 0 61 20 109

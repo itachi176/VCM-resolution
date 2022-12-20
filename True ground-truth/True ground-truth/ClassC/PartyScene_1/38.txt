@@ -1,0 +1,6 @@
+teddy_bear 515 171 637 289
+clock 144 1 240 54
+potted_plant 5 15 119 441
+person 320 200 522 484
+person 2 21 120 469
+cup 401 344 445 382

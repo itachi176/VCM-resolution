@@ -1,0 +1,11 @@
+sports_ball 309 138 413 230
+backpack 135 338 183 388
+person 429 18 593 208
+person 645 263 823 471
+person 94 254 232 478
+person 739 0 831 136
+person 323 261 479 479
+sports_ball 118 10 144 38
+chair 91 1 171 85
+chair 150 2 224 70
+chair 204 1 272 55

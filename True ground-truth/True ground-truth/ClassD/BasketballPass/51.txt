@@ -1,0 +1,3 @@
+sports_ball 211 88 233 110
+person 202 63 338 211
+person 0 19 74 243

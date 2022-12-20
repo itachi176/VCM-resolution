@@ -1,0 +1,7 @@
+sports_ball 371 126 395 152
+backpack 54 102 94 162
+person 324 36 410 214
+person 208 59 246 175
+person 139 51 217 223
+person 54 42 128 204
+person 3 35 75 211

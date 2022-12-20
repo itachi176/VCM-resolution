@@ -1,0 +1,8 @@
+cell_phone 261 218 269 228
+handbag 146 216 208 374
+handbag 0 183 75 457
+person 463 172 589 476
+person 232 189 308 433
+person 57 141 195 477
+person 0 117 75 467
+person 616 212 656 282

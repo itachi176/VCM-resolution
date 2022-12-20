@@ -1,0 +1,3 @@
+teddy_bear 354 0 414 83
+person 193 11 417 235
+person 3 42 185 236

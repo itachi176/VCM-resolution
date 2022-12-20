@@ -1,0 +1,8 @@
+cell_phone 220 222 228 232
+handbag 122 233 176 383
+person 14 145 158 487
+person 192 189 260 447
+person 409 152 495 494
+person 0 160 38 452
+person 568 213 610 281
+handbag 2 198 34 384

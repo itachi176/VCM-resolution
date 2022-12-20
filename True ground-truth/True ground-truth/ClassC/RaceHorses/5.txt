@@ -1,0 +1,8 @@
+horse 0 136 574 478
+horse 91 64 619 272
+horse 582 95 816 479
+horse 1 0 33 140
+person 200 1 412 477
+person 322 2 480 86
+person 561 1 825 377
+horse 0 0 96 108

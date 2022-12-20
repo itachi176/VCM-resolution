@@ -1,0 +1,7 @@
+cell_phone 356 218 364 228
+handbag 219 235 277 377
+handbag 4 220 138 394
+person 318 192 396 446
+person 121 156 277 482
+person 2 143 152 473
+person 714 212 758 282

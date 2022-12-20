@@ -1,0 +1,7 @@
+backpack 314 72 354 132
+person 233 72 269 188
+person 307 42 397 236
+person 28 30 86 234
+person 76 10 198 236
+person 350 49 412 211
+person 80 125 122 207

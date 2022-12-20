@@ -1,0 +1,8 @@
+cell_phone 288 222 296 232
+handbag 169 221 231 367
+handbag 0 209 95 431
+person 500 169 620 479
+person 259 197 333 441
+person 1 133 95 487
+person 640 213 684 283
+person 86 149 250 479

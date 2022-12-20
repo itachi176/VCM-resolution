@@ -1,0 +1,6 @@
+cell_phone 474 218 482 228
+handbag 293 234 355 354
+person 75 137 217 479
+person 445 195 519 427
+person 199 172 343 474
+handbag 93 281 207 379

@@ -1,0 +1,9 @@
+sports_ball 434 156 526 236
+person 576 4 734 168
+person 442 186 654 494
+person 686 209 836 437
+person 69 56 271 342
+sports_ball 118 10 144 38
+chair 91 1 171 85
+chair 150 2 224 70
+chair 204 1 272 55

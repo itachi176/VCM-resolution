@@ -1,0 +1,8 @@
+cell_phone 259 217 267 227
+handbag 148 230 206 378
+handbag 0 184 71 456
+person 232 193 304 427
+person 55 140 189 478
+person 449 177 575 469
+person 0 129 70 457
+person 613 213 653 283

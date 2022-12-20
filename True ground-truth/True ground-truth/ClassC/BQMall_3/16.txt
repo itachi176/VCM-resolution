@@ -1,0 +1,7 @@
+cell_phone 311 218 319 228
+handbag 180 223 252 365
+handbag 1 171 118 435
+person 78 141 262 487
+person 277 192 357 444
+person 0 140 111 472
+person 660 212 710 284

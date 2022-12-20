@@ -1,0 +1,6 @@
+person 343 79 379 195
+person 79 75 169 215
+person 222 24 384 236
+person 2 26 64 222
+person 30 67 68 195
+person 299 97 383 239

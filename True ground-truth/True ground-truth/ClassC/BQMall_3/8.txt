@@ -1,0 +1,7 @@
+handbag 161 225 225 363
+handbag 1 199 89 439
+person 489 169 613 477
+person 71 139 213 485
+person 254 197 328 439
+person 3 117 93 501
+person 638 215 678 281

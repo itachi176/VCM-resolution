@@ -1,0 +1,5 @@
+teddy_bear 351 1 413 79
+person 0 24 191 236
+person 216 5 396 235
+cup 214 209 262 239
+person 1 1 11 213
