@@ -10,17 +10,31 @@ names =  ['person', 'bicycle', 'car', 'motorcycle', 'airplane', 'bus', 'train', 
         'microwave', 'oven', 'toaster', 'sink', 'refrigerator', 'book', 'clock', 'vase', 'scissors', 'teddy_bear',
         'hair_drier', 'toothbrush']
 
-files = os.listdir('./grouth_truth/classC/BQMall')
+files = os.listdir('./grouth_truth/classD/RaceHorsesD')
+len_file = len(files)
+num_sequence = int(len_file / 32)
+print(num_sequence)
 ratio = 1
-for k, file in enumerate(files):
-    print(file[0])
-    with open('./grouth_truth/classC/BQMall/'+ file, 'r') as f:
+count = 0 
+k = 0
+for file in files:
+    # print(file[0])
+    with open('./grouth_truth/classD/RaceHorsesD/'+ file, 'r') as f:
         texts = f.read().splitlines()
     # print(text[0].split(' ')) # x,y,w,h (x=x*/N, y= y*/M, w=w*/N, h=h*/M) width N and height M 
     # results = text[1].split(' ')
-    path = '../mAP/input/ground-truth/'
+    if k % 32 ==0:
+        if count  == num_sequence:
+            break
+        if not os.path.isdir(f'../mAP/input/ground-truth/{count}'):
+            os.mkdir(f'../mAP/input/ground-truth/{count}')
+        path = f'../mAP/input/ground-truth/{count}/'
+        
+        count+=1
+        k = 0
+        
     f =  open(path+str(k)+'.txt', 'w')
-    print(k)
+    # print(k)
     for results in texts:
         results = results.split(' ')
         x = results[1]
@@ -28,10 +42,10 @@ for k, file in enumerate(files):
         w = results[3]
         h = results[4]
         
-        x = float(x) * 832
-        w = float(w) * 832
-        y = float(y) * 480
-        h = float(h) * 480 
+        x = float(x) * 416
+        w = float(w) * 416
+        y = float(y) * 240
+        h = float(h) * 240 
         # print(type(x))
         top_left_x = abs(x - w//2)
         top_left_y = abs(y - h//2)
@@ -44,6 +58,7 @@ for k, file in enumerate(files):
         bottom_right_y = bottom_right_y * ratio
 
         f.writelines(names[int(results[0])] + " " + str(int(top_left_x)) + " " + str(int(top_left_y)) + " " + str(int(bottom_right_x)) + " " + str(int(bottom_right_y)) + '\n')
+    k += 1
     f.close()
 
 
